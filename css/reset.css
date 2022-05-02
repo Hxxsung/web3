@@ -1,0 +1,12 @@
+* {margin:0;padding:0;vertical-align:middle;box-sizing:border-box;}
+html,body {width:100%;height:100%}
+body {
+  font:normal 14px/1 '굴림', 'arial';
+  color:#333;
+  background:#fff;
+} /*14px/1 안쓰면 1px씩 공간이 생기므로 꼭 써주기*/
+ul,li {list-style:none;}
+a {color:#333;text-decoration:none;}
+h1,h2,h3,h4,h5,h6 {font-size:14px;font-weight:normal;}
+em,i,address {font-style:normal;} /*이탤릭체 - 눕는 글씨체*/
+header,main,footer,section,article,nav,aside {display:block;} /*시멘틱태그*/
